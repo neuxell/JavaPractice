@@ -54,7 +54,7 @@ public class LobbyReader extends JFrame{
 		/*
 		 * basically, in the initial phase of this portion, it was to extract from 10 points (xy's)
 		 * then i expanded on that, adding size adjustment of the aoe
-		 */
+		 */ // TODO: multithread this. It'll be beautiful, you'll see
 		for(int x:X){ // loop through teams (x-positions)
 			for(int y:Y){ // loop through the players (y-positions)
 				int clr = 0;
